@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+  background: rgb(238, 174, 202);
+  background: linear-gradient(61deg, rgba(238, 174, 202, 1) 0%, rgba(245, 255, 1, 1) 0%, rgba(249, 95, 0, 1) 100%);
+}
+
+.SupH {
+  background-color: #FFC70080;
+  width: 100%;
+  height: 59px;
+  position: relative;
+  top: 55px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Tiro Devanagari Hindi';
+  font-size: 23px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.text-wrapper {
+  display: inline-block;
+  animation: SupH 3s infinite ease-in-out;
+}
+
+@keyframes SupH {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.Heading{
+  background-color:#FFC70080 ;
+  width: 100%;
+  height: 59px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top:108px;
+  
+  font-family: Tiro Devanagari Hindi;
+  font-size: 23px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Mandir_img{
+  background-image: url("../public/images/rectangle-5.png");
+  width: 100%;
+  height: 205px;
+  position: relative;
+  top: 129px;
+  left: 0%;
+  border-radius: 32px;
+  background-repeat: no-repeat;
+  align-self: center;
+
+}
+.tilak{
+  width: 69px;
+  height: 187px;
+  position: relative;
+  top: 173px;
+  opacity: 1;
+  background-image: url("../public/images/brahma-madhya-gaudiya-tilaka-1.svg");
+}
+.Meassage p{
+  width: 327px;
+  height: 231px;
+  position: relative;
+  top: -8px;
+  font-family: Tiro Devanagari Hindi;
+  font-size: 23px;
+  font-style: italic;
+  font-weight: bolder;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.Sharelink{
+  font-family: Tiro Devanagari Hindi;
+font-size: 23px;
+font-style: italic;
+font-weight: bolder;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.Wlogo{
+  background-image: url("../public/images/image-1.png");
+  width: 44px;
+height: 44px;
+position: relative;
+left: -20%;
+
+
+}
+.whatslink{
+  width: 234px;
+height: 51px;
+position: relative;
+top: -46px;
+border-radius: 7px;
+background-color: #E8E8EA;
+}
